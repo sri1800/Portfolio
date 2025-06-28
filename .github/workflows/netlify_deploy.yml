@@ -29,8 +29,8 @@ jobs:
           npm install
           npm run build --configuration=production
           sleep 2
-          echo "/*    /index.html   200" > dist/srihari-portfolio/_redirects
-          
+          # echo "/*    /index.html   200" > dist/srihari-portfolio/_redirects
+
 
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
