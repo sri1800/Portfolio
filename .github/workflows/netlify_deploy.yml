@@ -26,4 +26,4 @@ jobs:
         run: |
           npm run build --configuration=production
           pwd
-          ll
+          ls -lrt
